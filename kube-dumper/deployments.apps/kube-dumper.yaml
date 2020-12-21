@@ -65,18 +65,10 @@ spec:
         - mountPath: /root/dump-files
           name: dump-files
           readOnly: true
-        - mountPath: /root/.ssh/config
-          name: ssh
-          readOnly: true
-          subPath: config
         - mountPath: /root/.ssh/id_rsa
           name: ssh
           readOnly: true
           subPath: id_rsa
-        - mountPath: /root/.ssh/known_hosts
-          name: ssh
-          readOnly: true
-          subPath: known_hosts
       dnsPolicy: ClusterFirst
       restartPolicy: Always
       schedulerName: default-scheduler
