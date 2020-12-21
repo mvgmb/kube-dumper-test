@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: persistent-volume-binder
+  namespace: kube-system
+secrets:
+- name: persistent-volume-binder-token-d7sct

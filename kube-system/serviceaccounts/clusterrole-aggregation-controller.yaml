@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: clusterrole-aggregation-controller
+  namespace: kube-system
+secrets:
+- name: clusterrole-aggregation-controller-token-rx6hb

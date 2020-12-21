@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: generic-garbage-collector
+  namespace: kube-system
+secrets:
+- name: generic-garbage-collector-token-6wk8l

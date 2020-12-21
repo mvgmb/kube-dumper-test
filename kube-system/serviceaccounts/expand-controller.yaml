@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: expand-controller
+  namespace: kube-system
+secrets:
+- name: expand-controller-token-5qc8j
