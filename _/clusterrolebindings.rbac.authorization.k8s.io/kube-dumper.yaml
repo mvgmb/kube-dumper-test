@@ -1,0 +1,13 @@
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRoleBinding
+metadata:
+  annotations: null
+  name: kube-dumper
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: kube-dumper
+subjects:
+- kind: ServiceAccount
+  name: kube-dumper
+  namespace: kube-dumper
