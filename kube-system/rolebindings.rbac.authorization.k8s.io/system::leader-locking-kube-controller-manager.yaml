@@ -1,0 +1,6 @@
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: system::leader-locking-kube-controller-manager
+  namespace: kube-system
+roleRef: null
