@@ -1,0 +1,13 @@
+apiVersion: apps/v1
+kind: DaemonSet
+metadata:
+  name: kube-proxy
+  namespace: kube-system
+spec:
+  selector: null
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers: null
+  updateStrategy: null
