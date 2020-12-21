@@ -1,0 +1,13 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: coredns
+  namespace: kube-system
+spec:
+  selector: null
+  strategy: null
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers: null
