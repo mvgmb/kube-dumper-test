@@ -3,5 +3,3 @@ kind: ServiceAccount
 metadata:
   name: default
   namespace: deleteme
-secrets:
-- name: default-token-pgfgr
