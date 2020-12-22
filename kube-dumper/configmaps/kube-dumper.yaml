@@ -1,9 +1,0 @@
-apiVersion: v1
-data:
-  REFRESH_GVRS_TIME_IN_MINUTES: "1"
-  REPOSITORY_URL: git@github.com:mvgmb/kube-dumper-test.git
-kind: ConfigMap
-metadata:
-  annotations: null
-  name: kube-dumper
-  namespace: kube-dumper
